@@ -20,7 +20,7 @@ services:
     ports:
       - "8200:80"
     environment:
-      - MYSQL_HOST=172.31.22.124:3406
+      - MYSQL_HOST=db
       - MYSQL_USER=root
       - MYSQL_PASSWORD=rootpass
       - MYSQL_DATABASE=mydb
